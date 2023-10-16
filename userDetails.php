@@ -5,7 +5,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>User Details</title>
-    <link rel="stylesheet" href="userDetails.css">
+    <style>
+        body {
+            margin: 0 50px;
+        }
+
+        .header {
+            display: flex;
+            /* margin: 0 50px; */
+        }
+
+        #profileImage {
+            width: 15%;
+            border-radius: 50%;
+            position: relative;
+            left: 900px;
+            margin-top: 20px;
+        }
+
+        .admin > h1{
+            position: relative;
+            left: 940px;
+            font-size: 25px;
+        }
+
+        
+    </style>
 </head>
 
 <body>
@@ -16,17 +41,25 @@
             require_once('connection.php');
             $fetch_query = "select * from user_details";
             $result = mysqli_query($conn, $fetch_query);
-            
+
             session_start();
             if (!isset($_SESSION['userData'])) {
                 header('location:login.php');
             }
             ?>
         </div>
-        <img src="img/dualBall.svg" alt="animation">
-        <div class="profileImage">
-            <img src="img/pic.jpeg" alt="ProfileImage">
+        <div class="header">
+            <div class="animation">
+                <img src="svg/dualBall.svg" alt="animation" id="animation">
+            </div>
+
+            <div class="admin">
+                <img src="images/Invectus2.png" alt="ProfileImage" id="profileImage">
+                <h1>Admin</h1>
+            </div>
+
         </div>
+
     </div>
 
 

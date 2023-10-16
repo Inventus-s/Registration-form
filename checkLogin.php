@@ -11,10 +11,10 @@ if (isset($_POST['username']) && !empty($_POST['username']) && isset($_POST['pas
         $userData = mysqli_fetch_assoc($response);
         session_start();
         $_SESSION['userData'] = $userData;
-        echo true;
+        echo 'true';
         // header('location:userDetails.php');
     } else {
-        echo false;
+        echo 'false';
         // header('location:login.php');
     }
 } else {

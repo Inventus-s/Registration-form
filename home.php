@@ -31,11 +31,11 @@
                     </div>
                     <div class="register">
                         <i class="fa-solid fa-address-card"></i>
-                        <a href="php/userForm.php">Register</a>
+                        <a href="userForm.php">Register</a>
                     </div>
                     <div class="login">
                         <i class="fa-solid fa-user"></i>
-                        <a href="php/login.php">Login</a>
+                        <a href="login.php">Login</a>
                     </div>
                     <div class="about">
                         <i class="fa-solid fa-globe"></i>
@@ -60,15 +60,104 @@
             </div>
         </nav>
         <nav class="sub-nav">
-            <a href="">Architecture & Engineering</a>
-            <a href="">Building Material</a>
-            <a href="">Construction Equipment</a>
-            <a href="">Contractors</a>
-            <a href="">Doors & Windows</a>
-            <a href="">Electricity</a>
-            <a href="">Flooring Material</a>
-            <a href="">Paint</a>
-            <a href="">Plumbing</a>
+            <ul id="nav-links">
+                <li class="nav-link">
+                    <a href="">Architecture & Engineering</a>
+                    <ul class="drop-down">
+                        <li class="drop-down-link"><a href="#">Architecture Firms</a></li>
+                        <li class="drop-down-link"><a href="#">Engineering Consultants</a></li>
+                        <li class="drop-down-link"><a href="#">Interior Design</a></li>
+                    </ul>
+                </li>
+                <li class="nav-link">
+                    <a href="">Building Material</a>
+                    <ul class="drop-down">
+                        <li class="drop-down-link"><a href="#">Adhesives & Grouting</a></li>
+                        <li class="drop-down-link"><a href="#">Bricks & Blocks</a></li>
+                        <li class="drop-down-link"><a href="#">Cement Suppliers</a></li>
+                        <li class="drop-down-link"><a href="#">Glass Suppliers</a></li>
+                        <li class="drop-down-link"><a href="#">Plastics & Composites</a></li>
+                        <li class="drop-down-link"><a href="#">Sand & Aggregates</a></li>
+                        <li class="drop-down-link"><a href="#">Steel Suppliers</a></li>
+                        <li class="drop-down-link"><a href="#">Wood & Timber</a></li>
+                    </ul>
+                </li>
+                <li class="nav-link">
+                    <a href="">Construction Equipment</a>
+                    <ul class="drop-down">
+                        <li class="drop-down-link"><a href="#">Contractor Tools</a></li>
+                        <li class="drop-down-link"><a href="#">Heavy Equipment</a></li>
+                        <li class="drop-down-link"><a href="#">Machinery</a></li>
+                        <li class="drop-down-link"><a href="#">Vehicles</a></li>
+                        <li class="drop-down-link"><a href="#">Scaffolding</a></li>
+                        <li class="drop-down-link"><a href="#">Temporary Buildings</a></li>
+                    </ul>
+                </li>
+                <li class="nav-link">
+                    <a href="">Contractors</a>
+                    <ul class="drop-down">
+                        <li class="drop-down-link"><a href="#">Concerete Contractos</a></li>
+                        <li class="drop-down-link"><a href="#">Demolition Contractors</a></li>
+                        <li class="drop-down-link"><a href="#">Electrical Contractors</a></li>
+                        <li class="drop-down-link"><a href="#">Flooring & Carpet Contractors</a></li>
+                        <li class="drop-down-link"><a href="#">General Contractors</a></li>
+                        <li class="drop-down-link"><a href="#">Landscaping</a></li>
+                        <li class="drop-down-link"><a href="#">Painting Contractors</a></li>
+                        <li class="drop-down-link"><a href="#">Plumbing Contractors</a></li>
+                        <li class="drop-down-link"><a href="#">Pools & Spas</a></li>
+                        <li class="drop-down-link"><a href="#">Restoration Contractors</a></li>
+                    </ul </li>
+                <li class="nav-link">
+                    <a href="">Doors & Windows</a>
+                    <ul class="drop-down">
+                        <li class="drop-down-link"><a href="#">Doors</a></li>
+                        <li class="drop-down-link"><a href="#">Garage Doors</a></li>
+                        <li class="drop-down-link"><a href="#">Gates & Fences</a></li>
+                        <li class="drop-down-link"><a href="#">Windows</a></li>
+                    </ul>
+                </li>
+                <li class="nav-link">
+                    <a href="">Electricity</a>
+                    <ul class="drop-down">
+                        <li class="drop-down-link"><a href="#">Appliances & Fixtures</a></li>
+                        <li class="drop-down-link"><a href="#">Devices</a></li>
+                        <li class="drop-down-link"><a href="#">Wires & Cables</a></li>
+                    </ul>
+                </li>
+                <li class="nav-link">
+                    <a href="">Flooring Material</a>
+                    <ul class="drop-down">
+                        <li class="drop-down-link"><a href="#">Carpets</a></li>
+                        <li class="drop-down-link"><a href="#">Ceramic Tile</a></li>
+                        <li class="drop-down-link"><a href="#">Marble</a></li>
+                    </ul>
+                </li>
+                <li class="nav-link">
+                    <a href="">HVAC</a>
+                    <ul class="drop-down">
+                        <li class="drop-down-link"><a href="#">Carpets</a></li>
+                        <li class="drop-down-link"><a href="#">Ceramic Tile</a></li>
+                        <li class="drop-down-link"><a href="#">Marble</a></li>
+                    </ul>
+                </li>
+                <li class="nav-link">
+                    <a href="">Paint</a>
+                    <ul class="drop-down">
+                        <li class="drop-down-link"><a href="#">Exterior Paint</a></li>
+                        <li class="drop-down-link"><a href="#">Interior Paint</a></li>
+                        <li class="drop-down-link"><a href="#">Surface Coatings</a></li>
+                    </ul>
+                </li>
+                <li class="nav-link">
+                    <a href="">Plumbing</a>
+                    <ul class="drop-down">
+                        <li class="drop-down-link"><a href="#">Plumbing Equipment</a></li>
+                        <li class="drop-down-link"><a href="#">Plumbing Fixtures</a></li>
+                        <li class="drop-down-link"><a href="#">Gardening Supplies</a></li>
+                    </ul>
+                </li>
+            </ul>
+
         </nav>
     </header>
     <!-- hero section -->

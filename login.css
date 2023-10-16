@@ -30,9 +30,9 @@ section{
     /* z-index: -1; */
 }
 
-.right-section > img {
+/* #right-img{
     width: 30%;
-}
+} */
 
 .right-section{
     /* text-align: left; */
@@ -41,6 +41,10 @@ section{
     padding-top: 4rem;
     padding-left: 4rem;
     padding-right: 15rem;
+}
+
+.right-section > img {
+    cursor: pointer;
 }
 
 .right-section > h1{
@@ -77,6 +81,7 @@ input:hover{
     border: none;
     border-radius: 6px;
     font-size: 1.6rem;
+    cursor: pointer;
 }
 
 #submit:hover{
